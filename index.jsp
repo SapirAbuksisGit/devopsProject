@@ -28,7 +28,7 @@
             <%
   if (language != null) {
   %>
-    <center><h3><font color="red">Hello!!!: <%= request.getParameter("nameUser") %></font></h3>
+    <center><h3><font color="red">Hello: <%= request.getParameter("nameUser") %></font></h3>
     <h3><font color="blue">You have selected language(s):</font></h3></center>
     <center><ul></center>
             <%
